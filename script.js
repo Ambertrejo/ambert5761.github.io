@@ -2,7 +2,7 @@ let ownerName = "Amber T"; // update the part BETWEEN the "quotes"
 let userName = "ambert5761"; // same here
 
 document.querySelectorAll("Amber T").forEach((e) => {
-    e.innerHTML = Amber T;
+    e.innerHTML = ownerName;
 });
 
 document.querySelector("#github").href = "http://github.com/" + userName;
